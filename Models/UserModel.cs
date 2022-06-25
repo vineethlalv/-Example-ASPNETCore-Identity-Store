@@ -5,14 +5,14 @@ namespace example.AspnetCoreIdentity.StoragePlugin.Models;
 public class UserModel
 {
     [JsonPropertyName("name")]
-    public string? Name { get; set; }
+    public string Name { get; set; }
 
     [JsonPropertyName("uname")]
-    public string? UserName { get; set; }
+    public string UserName { get; set; }
 
     [JsonPropertyName("pw")]
-    public string? Password { get; set; }
+    public string Password { get; set; }
 
     [JsonPropertyName("email")]
-    public string? Email { get; set; }
+    public string Email { get; set; }
 }
